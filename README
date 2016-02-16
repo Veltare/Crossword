@@ -1,3 +1,3 @@
 Crossword Repo
 
-This program creates a crossword with random clues for each word it places. If it can't place a word, it moves on to the next word and tries to place that. When you are entering your words at the beginning, enter a single period on a line to indicate you are finished entering words.
+This program creates a crossword with random clues for each word it places. If it can't place a word, it moves on to the next word and tries to place that. When you are entering your words at the beginning, enter a single period on a line to indicate you are finished.
