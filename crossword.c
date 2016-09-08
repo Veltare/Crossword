@@ -26,8 +26,8 @@ void displayBoards(char board[][15], char solution[][15], int location[][3], int
 
 
 int main(void){
-	printf("Please enter up to 20 words that are 15 characters or less in length\n");
-
+        printf("Please enter up to 20 words that are 15 characters or less in length\nPress \".\" to finish entering words\n");
+        
 	int wordcount,i,j;
 	char puzzle[15][15], solution[15][15], words[20][17];
 	
