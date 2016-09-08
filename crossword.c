@@ -36,16 +36,11 @@ int main(void){
 
 	wordcount = input(words);
 
-	// printf("%d\n", wordcount); //debugging
-	// display(words,wordcount);
-	
 	printf("\n");
 
 	int location[wordcount][3];
 
 	wordSorter(words,wordcount);
-
-	// display(words,wordcount); //debugging
 
 	puzzleMaker(words,solution,wordcount,location);
 
