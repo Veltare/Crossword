@@ -1,6 +1,6 @@
 # Crossword
 
-This is a crossword puzzle generator written in C using the standard library. To compile, simply enter `make` in the repository directory.
+This is a crossword puzzle generator written in C using the standard library. To compile, simply enter `make` in the repository directory. This program was written for an assignment in CSE20311 (Fundamentals of Computing I) at the University of Notre Dame.
 
 This generator tries to place up to 20 words until it is unable to place a word, at which points it prints the puzzle is has created up to that point. It can place words horizontally or vertically in a 15x15 cell puzzle board. When inputting words into the program, each word is checked for validity and thrown out if it does not fit the word requirements. If you do not want to enter the full 20 words, then enter the character '.' to signal that you are finished.
 
